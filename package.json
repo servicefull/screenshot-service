@@ -1,0 +1,23 @@
+{
+  "name": "screenshot-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servicefull/screenshot-service.git"
+  },
+  "author": "servicefull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servicefull/screenshot-service/issues"
+  },
+  "homepage": "https://github.com/servicefull/screenshot-service#readme"
+}
