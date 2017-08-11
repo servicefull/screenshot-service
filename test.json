@@ -1,0 +1,9 @@
+{
+    "Records": [
+        {
+            "Sns": {
+                "Message": "{\"pageUrl\":\"http://www.google.com\",\"size\":\"1024x768\",\"fileName\":\"v71-httpwwwgooglecom-1024x768.png\",\"s3Bucket\":\"servicefull.public\"}"
+            }
+        }
+    ]
+}

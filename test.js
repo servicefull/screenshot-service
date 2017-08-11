@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const recordAry = [];
 recordAry.push({
 	"Sns" : {
@@ -10,7 +12,16 @@ recordAry.push({
 	}
 });
 
-var index = require('./index');
-index.handler({
+var content = {
 	"Records":recordAry
+};
+
+fs.writeFile("test.json", JSON.stringify(content, null, 4), 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
+    console.log("The file was saved!");
 });
+
+var index = require('./index');
+index.handler(content);
